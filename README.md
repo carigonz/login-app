@@ -1,25 +1,31 @@
-# Create React App example with TypeScript
+# Login App example
+
+## Requirements
+
+- Install [NodeJs](https://nodejs.org/en/) (v14.15.4 used)
+- Install [Git](https://git-scm.com/downloads)
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/mui-org/material-ui):
+### This instruccions were made in macOS environment.
+
+Clone Repository:
 
 ```sh
-curl https://codeload.github.com/mui-org/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/create-react-app-with-typescript
-cd create-react-app-with-typescript
+$ git clone https://github.com/carigonz/login-app.git
 ```
 
 Install it and run:
 
 ```sh
-npm install
-npm start
+$ npm install
+$ npm start
 ```
 
-or:
+Now you should see login page in http://localhost:3000/.
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui-org/material-ui/tree/master/examples/create-react-app-with-typescript)
+Note that backend is also listening on port 5000 with the same `npm start` script.
 
-## The idea behind the example
+Enjoy!
 
-This example demonstrates how you can use [Create React App](https://github.com/facebookincubator/create-react-app) with [TypeScript](https://github.com/Microsoft/TypeScript).
+This example was bootstrapped with [Material Ui and Create React App](https://github.com/mui-org/material-ui/tree/master/examples/create-react-app-with-typescript) with [TypeScript](https://github.com/Microsoft/TypeScript).
